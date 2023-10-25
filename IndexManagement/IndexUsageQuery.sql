@@ -1,4 +1,4 @@
-﻿SELECT DB_NAME(DB_ID()) AS [DatabaseName]
+SELECT DB_NAME(DB_ID()) AS [DatabaseName]
      , OBJECT_SCHEMA_NAME([I].OBJECT_ID) AS [SchemaName]
      , OBJECT_NAME([I].OBJECT_ID) AS [TableName]
      , [i].[name] AS [IndexName]

@@ -1,4 +1,4 @@
-﻿SELECT DB_NAME([database_id]) AS [database_name]
+SELECT DB_NAME([database_id]) AS [database_name]
      , OBJECT_SCHEMA_NAME(object_id, [database_id]) AS [schema_name]
      , OBJECT_NAME(object_id, [database_id]) AS [table_name]
      , [MisDetail].[equality_columns]

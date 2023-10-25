@@ -1,4 +1,4 @@
-﻿DECLARE @IndexNoUseDay INT = 1; --1 is today not used yet
+DECLARE @IndexNoUseDay INT = 1; --1 is today not used yet
 SELECT *
   FROM(SELECT DB_NAME(DB_ID()) AS [DatabaseName]
             , OBJECT_SCHEMA_NAME([I].OBJECT_ID) AS [SchemaName]
